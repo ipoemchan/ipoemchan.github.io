@@ -8,19 +8,7 @@ url: "" # the base hostname & protocol for your site
 google_analytics: UA-79512767-1 #your GA unique id, e.g. UA-xxxxxxxx-x
 duoshuo_username: shizhiwen #Your duoshuo_username to add comments on the post
 disqus_username:  #Your disqus_username shizhige to add comments on the post
-
-# Optional settings
-github: #your github username
-linkedin: #linkedin username
-twitter:
-  username: #twitter username here
-facebook:
-  app_id: 
-  publisher: 
-google_plus: #gplus id or username
-ads: false
-
-
+qiniu: http://shiwen-blog.qiniudn.com
 # Build settings 
 markdown: kramdown
 
