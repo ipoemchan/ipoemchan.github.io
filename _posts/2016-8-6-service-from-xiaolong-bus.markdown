@@ -6,7 +6,7 @@ category: 杂谈
 tags: [体验]
 ---
 
-{:toc}
+[TOC]
 
 ![乘坐小龙巴士]({{ site.image }}/2016/xiaolong-bus.jpg)
 
