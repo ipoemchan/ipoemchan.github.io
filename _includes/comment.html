@@ -8,7 +8,7 @@
           var gitalk = new Gitalk({
             clientID:  '{{site.gitalk.clientID}}', 
             clientSecret: '{{site.gitalk.clientSecret}}',
-            id: location.pathname,
+            id: location.href,
             repo: '{{site.gitalk.repo}}', 
             owner: '{{site.gitalk.owner}}', 
             admin: '{{site.gitalk.admin}}', 
