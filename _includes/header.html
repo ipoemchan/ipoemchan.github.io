@@ -9,12 +9,25 @@
         </a>
         <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
         <nav class="site-nav">
+            
             <div class="trigger">
-            {% for page in site.pages %}
-                {% if page.title and page.url != '/404.html' %}
+                <a class="page-link" href="{{ "/category" | prepend: site.baseurl }}">分类</a>
+                <a class="page-link" href="{{ "/archive" | prepend: site.baseurl }}">归档</a>
+                <a class="page-link" href="{{ "/about" | prepend: site.baseurl }}">关于</a>
+
+                <!-- <div class="dropdown">
+                    <a href="{{ "/category" | prepend: site.baseurl }}" class="dropbtn page-link">分类</a>
+                    <div class="dropdown-content">
+                        {% for category in site.categories %}
+                            <a href="/category/#{{ category | first }}">{{ category | first }}</a>
+                        {% endfor %}
+                    </div>
+                </div> -->
+            <!-- {% for page in site.pages %}
+                {% if page.title and page.url != '/404.html' and page.url != '/category' %}
                         <a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
                 {% endif %}
-            {% endfor %}
+            {% endfor %} -->
             </div>
         </nav>
     </div>
