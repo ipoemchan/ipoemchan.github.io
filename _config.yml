@@ -11,9 +11,9 @@ gitalk:
   enable: true    #用来做启用判断可以不用
   clientID: '05d790578e598ad5a448'    #上面生成的往这里怼
   clientSecret: '4d16fd8389ce5b7be7fd8b611005ab9f1b77da92'   #同上
-  repo: ishizhiwen.github.com    #仓库名称
-  owner: ishizhiwen    #github用户名
-  admin: ishizhiwen
+  repo: 'ishizhiwen.github.com'   #仓库名称
+  owner: 'ishizhiwen'    #github用户名
+  admin: 'ishizhiwen'
   distractionFreeMode: true
 #coding_comments:
 #  owner: #'shizhiwen'
