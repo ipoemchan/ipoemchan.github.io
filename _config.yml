@@ -5,7 +5,7 @@ description: > # this means to ignore newlines until "baseurl:"
   Welcome to my awesome blog.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
-google_analytics: UA-79512767-1 #your GA unique id, e.g. UA-xxxxxxxx-x
+google_analytics:  #your GA unique id, e.g. UA-79512767-1
 # Gitalk
 gitalk: 
   enable: true    #用来做启用判断可以不用
@@ -15,8 +15,15 @@ gitalk:
   owner: ishizhiwen    #github用户名
   admin: ishizhiwen
   distractionFreeMode: true
-duoshuo_username: #Your duoshuo_username to add comments on the post
+#coding_comments:
+#  owner: #'shizhiwen'
+#  repo: #'shizhiwen'
+#  oauth:
+#    client_id: #'66b8f82d32b9924117a46443e29d80c9'
+#    client_secret: #'2c69ee4d9e2a407829731944e0e394c586fdd5e9'
+duoshuo_username:  #Your duoshuo_username to add comments on the post
 disqus_username:  #Your disqus_username shizhige to add comments on the post
+netease_username: #Your duoshuo_username to add comments on the post
 image: http://shiwen-blog.qiniudn.com # image space
 # Build settings 
 markdown: kramdown
