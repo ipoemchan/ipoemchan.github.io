@@ -6,7 +6,16 @@ description: > # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site
 google_analytics: UA-79512767-1 #your GA unique id, e.g. UA-xxxxxxxx-x
-duoshuo_username: shizhiwen #Your duoshuo_username to add comments on the post
+# Gitalk
+gitalk: 
+  enable: true    #用来做启用判断可以不用
+  clientID: '05d790578e598ad5a448'    #上面生成的往这里怼
+  clientSecret: '4d16fd8389ce5b7be7fd8b611005ab9f1b77da92'   #同上
+  repo: shizhiwen_comments    #仓库名称
+  owner: ishizhiwen    #github用户名
+  admin: ishizhiwen
+  distractionFreeMode: true
+duoshuo_username: #Your duoshuo_username to add comments on the post
 disqus_username:  #Your disqus_username shizhige to add comments on the post
 image: http://shiwen-blog.qiniudn.com # image space
 # Build settings 
