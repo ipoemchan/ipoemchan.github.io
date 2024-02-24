@@ -11,8 +11,8 @@ gitalk:
   enable: true    #用来做启用判断可以不用
   clientID: '05d790578e598ad5a448'    #上面生成的往这里怼
   clientSecret: '4d16fd8389ce5b7be7fd8b611005ab9f1b77da92'   #同上
-  repo: 'ishizhiwen.github.com'   #仓库名称
-  owner: 'ishizhiwen'    #github用户名
+  repo: 'ipoemchan.github.io'   #仓库名称
+  owner: 'ipoemchan'    #github用户名
   admin: 'shizhiwen'
   distractionFreeMode: true
 #coding_comments:
@@ -24,7 +24,7 @@ gitalk:
 duoshuo_username:  #Your duoshuo_username to add comments on the post
 disqus_username:  #Your disqus_username shizhige to add comments on the post
 netease_username: #Your duoshuo_username to add comments on the post
-image: http://shiwen-blog.qiniudn.com # image space
+image: https://cdn.jsdelivr.net/gh/ipoemchan/blog-image/ # image space
 # Build settings 
 markdown: kramdown
 
