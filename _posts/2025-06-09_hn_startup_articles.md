@@ -1,7 +1,7 @@
 
                         ---
                         layout: post
-                        title: data/hn_startup_articles_2025-06-09_14-33-34.md
+                        title: hn_startup_articles_2025-06-09
                         description: ""
                         category: 杂谈
                         tags: [体验]
