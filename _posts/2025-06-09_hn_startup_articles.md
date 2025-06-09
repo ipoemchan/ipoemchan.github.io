@@ -6,12 +6,6 @@
                         category: 杂谈
                         tags: [体验]
                         ---
-
-                        body { font-family: Arial, sans-serif; }
-          .article { margin-bottom: 20px; border-bottom: 1px solid #eee; padding-bottom: 15px; }
-          .title { font-size: 1.1em; font-weight: bold; }
-          .meta { color: #666; font-size: 0.9em; margin: 5px 0; }
-          .link { color: #0066cc; text-decoration: none; }
         
       
       
